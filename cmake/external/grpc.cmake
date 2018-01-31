@@ -75,6 +75,7 @@ else()
     BUILD_COMMAND
       ${CMAKE_COMMAND} --build . --target grpc
 
+    UPDATE_COMMAND ""
     TEST_COMMAND ""
     INSTALL_COMMAND ""
   )

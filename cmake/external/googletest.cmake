@@ -31,6 +31,7 @@ ExternalProject_Add(
   PREFIX ${PROJECT_BINARY_DIR}/external/googletest
 
   # Just download the sources without building.
+  UPDATE_COMMAND ""
   CONFIGURE_COMMAND ""
   BUILD_COMMAND ""
   INSTALL_COMMAND ""
