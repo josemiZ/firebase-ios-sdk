@@ -23,6 +23,8 @@ Google Cloud Firestore is a NoSQL document database built for automatic scaling,
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '7.0'
+  s.osx.deployment_target = '10.10'
+  s.tvos.deployment_target = '10.0'
 
   s.cocoapods_version = '>= 1.4.0.beta.2'
   s.static_framework = true
